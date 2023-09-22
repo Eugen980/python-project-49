@@ -3,13 +3,14 @@ name = "hexlet-code"
 version = "0.1.0"
 description = ""
 authors = ["Eugen980 <zaza980q@mail.ru>"]
-packages = [ 
+packages = [
   { include = "brain_games" },
 ]
 
 
 [tool.poetry.dependencies]
 python = "^3.10"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 
