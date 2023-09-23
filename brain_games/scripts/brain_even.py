@@ -12,14 +12,16 @@ def main():
         x = (randint(1, 100))
         print('Question: ', x)
         answer = prompt.string('Your answer: ')
-        if answer.lower() == 'yes' and x % 2 == 0 or answer.lower() == 'no' and x % 2 != 0:
+        if answer == 'yes' and x % 2 == 0 or answer == 'no' and x % 2 != 0:
             print('Correct!')
             count += 1
-        elif answer.lower() == 'yes' and x % 2 != 0 or answer.lower() == 'no' and x % 2 == 0:
-            print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again,", name)
+        elif answer == 'yes' and x % 2 != 0 or answer == 'no' and x % 2 == 0:
+            print("""'yes' is wrong answer ;(. Correct answer was 'no'.
+            Let's try again,""", name)
             break
         elif answer != 'yes' or answer != 'no':
-            print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again,", name)
+            print("""'yes' is wrong answer ;(. Correct answer was 'no'.
+            Let's try again,""", name)
             break
     if count == 3:
         print(f'Congratulations, {name}!')
