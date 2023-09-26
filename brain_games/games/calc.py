@@ -6,8 +6,7 @@ def init_game():
     operation_list = ('+', '-', '*')
     first = randint(1, 30)
     second = randint(1, 30)
-    i = randint(0,2)
-    operation = operation_list[i]
+    operation = choice(operation_list)
     print('Question: ', first, operation, second)
     if operation == '+':
         answer = str(first + second)
