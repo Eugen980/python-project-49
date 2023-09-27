@@ -2,6 +2,7 @@ from random import randint, choice
 print('brain-calc')
 MANUAL = 'What is the result of the expression?'
 
+
 def init_game():
     operation_list = ('+', '-', '*')
     first = randint(1, 30)

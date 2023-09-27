@@ -7,6 +7,8 @@ https://asciinema.org/a/OD2C6CeiwAqq85uND1i6Pq8wz # demo brain-games and brain-e
 
 https://asciinema.org/connect/195adebc-1b51-4b56-90b6-8e5894af8a0a #demo brain-calc
 
- https://asciinema.org/a/TqDDH1hBP6s0eoTkp8t7P2f58 #demo brain-gcd
+https://asciinema.org/a/TqDDH1hBP6s0eoTkp8t7P2f58 #demo brain-gcd
 
 https://asciinema.org/a/AQIae2oiHjSLyWsH24TSV3u0n #demo brain-progression
+
+https://asciinema.org/a/jQ5OHID86U6krh055ZgvfIBNV #demo brain-prime
