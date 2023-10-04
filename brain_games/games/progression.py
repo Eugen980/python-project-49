@@ -13,5 +13,6 @@ def init_game():
         sequence.append(str(i*step))
     answer = sequence[random_element]
     sequence[random_element] = '..'
-    print(f'Question: '*sequence)
+    sequence = " ".join(sequence)
+    print(f'Question: {sequence}')
     return answer
