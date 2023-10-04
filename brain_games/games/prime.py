@@ -9,7 +9,7 @@ def init_game():
     for i in range(1, number + 1):
         if number % i == 0:
             count += 1
-    print('Question: ', number)
+    print(f'Question: {number}')
     if count > 2:
         answer = 'no'
         return answer
