@@ -8,7 +8,7 @@ def init_game():
     first = randint(1, 30)
     second = randint(1, 30)
     operation = choice(operation_list)
-    print('Question: <first> <operation> <second>')
+    print(f'Question: {first} {operation} {second}')
     if operation == '+':
         answer = str(first + second)
         return answer
