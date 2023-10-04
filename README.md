@@ -3,12 +3,45 @@
 
 <a href="https://codeclimate.com/github/Eugen980/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/12ec13c4d0c209b33c5b/maintainability" /></a>
 
-https://asciinema.org/a/OD2C6CeiwAqq85uND1i6Pq8wz # demo brain-games and brain-even
+### Brain Games
 
-https://asciinema.org/connect/195adebc-1b51-4b56-90b6-8e5894af8a0a #demo brain-calc
+Brain Games is a console mini-game consisting of five brain training games
 
-https://asciinema.org/a/TqDDH1hBP6s0eoTkp8t7P2f58 #demo brain-gcd
+1. Determining an even number
+2. Calculator.
+3. Finding of Greatest common division
+4. Determining of a prime number
+5. Progression. Finding missing number in a sequence of numbers
 
-https://asciinema.org/a/AQIae2oiHjSLyWsH24TSV3u0n #demo brain-progression
+### Installation instruction
 
-https://asciinema.org/a/jQ5OHID86U6krh055ZgvfIBNV #demo brain-prime
+Download the game and install from root directory
+
+### Starting the game 
+
+To start the game, enter on of the command:
+
+brain-even
+
+[![asciicast](https://asciinema.org/a/OD2C6CeiwAqq85uND1i6Pq8wz.svg)](https://asciinema.org/a/OD2C6CeiwAqq85uN
+D1i6Pq8wz)
+
+brain-calc 
+
+[![asciicast](https://asciinema.org/a/oD9WG7gN3m2B0lukmWWBwxBlu.svg)](https://asciinema.org/a/oD9WG7gN3m2B0luk
+mWWBwxBlu)
+
+brain-gcd
+
+[![asciicast](https://asciinema.org/a/TqDDH1hBP6s0eoTkp8t7P2f58.svg)](https://asciinema.org/a/TqDDH1hBP6s0eoTk
+p8t7P2f58)
+
+brain-progression
+
+[![asciicast](https://asciinema.org/a/AQIae2oiHjSLyWsH24TSV3u0n.svg)](https://asciinema.org/a/AQIae2oiHjSLyWsH
+24TSV3u0n)
+
+brain-prime
+
+[![asciicast](https://asciinema.org/a/jQ5OHID86U6krh055ZgvfIBNV.svg)](https://asciinema.org/a/jQ5OHID86U6krh05
+5ZgvfIBNV)
