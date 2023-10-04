@@ -23,25 +23,20 @@ To start the game, enter on of the command:
 
 brain-even
 
-[![asciicast](https://asciinema.org/a/OD2C6CeiwAqq85uND1i6Pq8wz.svg)](https://asciinema.org/a/OD2C6CeiwAqq85uN
-D1i6Pq8wz)
+![asciicast](https://asciinema.org/a/OD2C6CeiwAqq85uND1i6Pq8wz.svg)
 
 brain-calc 
 
-[![asciicast](https://asciinema.org/a/oD9WG7gN3m2B0lukmWWBwxBlu.svg)](https://asciinema.org/a/oD9WG7gN3m2B0luk
-mWWBwxBlu)
+![asciicast](https://asciinema.org/a/oD9WG7gN3m2B0lukmWWBwxBlu.svg)
 
 brain-gcd
 
-[![asciicast](https://asciinema.org/a/TqDDH1hBP6s0eoTkp8t7P2f58.svg)](https://asciinema.org/a/TqDDH1hBP6s0eoTk
-p8t7P2f58)
+![asciicast](https://asciinema.org/a/TqDDH1hBP6s0eoTkp8t7P2f58.svg)
 
 brain-progression
 
-[![asciicast](https://asciinema.org/a/AQIae2oiHjSLyWsH24TSV3u0n.svg)](https://asciinema.org/a/AQIae2oiHjSLyWsH
-24TSV3u0n)
+![asciicast](https://asciinema.org/a/AQIae2oiHjSLyWsH24TSV3u0n.svg)
 
 brain-prime
 
-[![asciicast](https://asciinema.org/a/jQ5OHID86U6krh055ZgvfIBNV.svg)](https://asciinema.org/a/jQ5OHID86U6krh05
-5ZgvfIBNV)
+![asciicast](https://asciinema.org/a/jQ5OHID86U6krh055ZgvfIBNV.svg)
