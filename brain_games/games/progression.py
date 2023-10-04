@@ -10,7 +10,7 @@ def init_game():
     first_element = randint(1, 30)
     random_element = randint(0, len_seq - 1)
     for i in range(first_element, first_element + len_seq):
-        sequence.append(str(i*step))
+        sequence.append(str(i * step))
     answer = sequence[random_element]
     sequence[random_element] = '..'
     sequence = " ".join(sequence)
