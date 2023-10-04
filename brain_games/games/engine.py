@@ -16,7 +16,7 @@ def engine(game):
             count += 1
         else:
             print(f"'{user_answer}' is wrong answer;(. ", end =" ")
-            print("Correct answer '{answer}'")
+            print(f"Correct answer '{answer}'")
             print(f"Let's try again, {name}!")
             right_answer = False
             count = 3
