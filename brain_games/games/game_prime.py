@@ -10,7 +10,7 @@ def init_game():
         if number % i == 0:
             count += 1
     print(f'Question: {number}')
-    if count > 2:
+    if count > 2 or number == 1:
         answer = 'no'
         return answer
     else:
