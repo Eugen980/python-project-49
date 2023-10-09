@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.games.engine import engine
-from brain_games.games import prime
+from brain_games.engine import engine
+from brain_games.games import game_prime
 
 
 def main():
-    engine(prime)
+    engine(game_prime)
 
 
 if __name__ == '__main__':
