@@ -1,18 +1,17 @@
 from random import randint
-print('brain-prime')
-MANUAL = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+from brain_games.engine import run_game
+from brain_games.games.consts import TITLE_PRIME, PRIME_INSTR
 
 
-def init_game():
-    number = randint(1, 100)
+def get_num_and_answer():
+    num = randint(1, 100)
     count = 0
-    for i in range(1, number + 1):
-        if number % i == 0:
+    for i in range(1, num + 1):
+        if num % i == 0:
             count += 1
-    print(f'Question: {number}')
-    if count > 2 or number == 1:
-        answer = 'no'
-        return answer
-    else:
-        answer = 'yes'
-        return answer
+    answer = 'no' if count > 2 or num == 1 else 'yes'
+    return num, answer
+
+
+def run_prime_game():
+    run_game(get_num_and_answer, TITLE_PRIME, PRIME_INSTR)

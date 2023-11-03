@@ -1,14 +1,13 @@
 from random import randint
-print('brain-even')
-MANUAL = 'Answer "yes" if the number is even, otherwise answer "no".'
+from brain_games.engine import run_game
+from brain_games.games.consts import TITLE_EVEN, EVEN_INSTR
 
 
-def init_game():
-    number = randint(1, 100)
-    print(f"Question: {number}")
-    if number % 2 == 0:
-        answer = 'yes'
-        return answer
-    elif number % 2 != 0:
-        answer = 'no'
-        return answer
+def get_num_and_answer():
+    num = randint(1, 100)
+    answer = 'yes' if num % 2 == 0 else 'no'
+    return num, answer
+
+
+def run_even_game():
+    run_game(get_num_and_answer, TITLE_EVEN, EVEN_INSTR)

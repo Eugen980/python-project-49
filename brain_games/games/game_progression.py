@@ -1,9 +1,9 @@
 from random import randint
-print('brain-progression')
-MANUAL = 'What number is missing in the progression?'
+from brain_games.engine import run_game
+from brain_games.games.consts import TITLE_PROGRESSION, PROGRESS_INSTR
 
 
-def init_game():
+def get_sequence_and_answer():
     sequence = []
     step = randint(1, 5)
     len_seq = 10
@@ -14,5 +14,8 @@ def init_game():
     answer = sequence[random_element]
     sequence[random_element] = '..'
     sequence = " ".join(sequence)
-    print(f'Question: {sequence}')
-    return answer
+    return sequence, answer
+
+
+def run_progress_game():
+    run_game(get_sequence_and_answer, TITLE_PROGRESSION, PROGRESS_INSTR)
