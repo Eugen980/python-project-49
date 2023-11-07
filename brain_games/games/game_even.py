@@ -1,6 +1,6 @@
 from random import randint
 from brain_games.engine import run_game
-from brain_games.games.consts import TITLE_EVEN, EVEN_INSTR
+from brain_games.consts import TITLE_EVEN, EVEN_INSTR, NUM_OF_REPEAT
 
 
 def get_num_and_answer():
@@ -10,4 +10,5 @@ def get_num_and_answer():
 
 
 def run_even_game():
-    run_game(get_num_and_answer, TITLE_EVEN, EVEN_INSTR)
+    print(TITLE_EVEN)
+    run_game(get_num_and_answer, NUM_OF_REPEAT, EVEN_INSTR)

@@ -1,15 +1,11 @@
 import prompt
 
 
-def run_game(game, name_of_the_game, instruction):
-    print(name_of_the_game)
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
-    print(instruction)
-    right_answer = True
-    for i in range(3):
-        question, answer = (game())
+def run_game(game, repeat, instruction):
+    name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
+    print(f'Hello, {name}\n{instruction}')
+    for i in range(repeat):
+        question, answer = game()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == answer:
@@ -18,7 +14,5 @@ def run_game(game, name_of_the_game, instruction):
             print(f"'{user_answer}' is wrong answer;(. ", end=" ")
             print(f"Correct answer '{answer}'")
             print(f"Let's try again, {name}!")
-            right_answer = False
-            break
-    if right_answer is True:
-        print(f'Congratulations, {name}!')
+            return
+    print(f'Congratulations, {name}!')

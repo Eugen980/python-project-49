@@ -1,6 +1,6 @@
 from random import randint, choice
 from brain_games.engine import run_game
-from brain_games.games.consts import TITLE_CALC, CALC_INSTR
+from brain_games.consts import TITLE_CALC, CALC_INSTR, NUM_OF_REPEAT
 
 
 def get_nums_and_answer():
@@ -21,4 +21,5 @@ def get_nums_and_answer():
 
 
 def run_calc_game():
-    run_game(get_nums_and_answer, TITLE_CALC, CALC_INSTR)
+    print(TITLE_CALC)
+    run_game(get_nums_and_answer, NUM_OF_REPEAT, CALC_INSTR)

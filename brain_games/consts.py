@@ -8,3 +8,4 @@ TITLE_EVEN = 'brain-even'
 TITLE_GCD = 'brain-gcd'
 TITLE_PRIME = 'brain-prime'
 TITLE_PROGRESSION = 'brain-progression'
+NUM_OF_REPEAT = 3

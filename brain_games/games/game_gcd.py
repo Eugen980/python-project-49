@@ -1,6 +1,6 @@
 from random import randint
 from brain_games.engine import run_game
-from brain_games.games.consts import TITLE_GCD, GCD_INSTR
+from brain_games.consts import TITLE_GCD, GCD_INSTR, NUM_OF_REPEAT
 
 
 def get_nums_and_answer():
@@ -16,4 +16,5 @@ def get_nums_and_answer():
 
 
 def run_gcd_game():
-    run_game(get_nums_and_answer, TITLE_GCD, GCD_INSTR)
+    print(TITLE_GCD)
+    run_game(get_nums_and_answer, NUM_OF_REPEAT, GCD_INSTR)

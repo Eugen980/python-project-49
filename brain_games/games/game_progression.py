@@ -1,6 +1,6 @@
 from random import randint
 from brain_games.engine import run_game
-from brain_games.games.consts import TITLE_PROGRESSION, PROGRESS_INSTR
+from brain_games.consts import TITLE_PROGRESSION, PROGRESS_INSTR, NUM_OF_REPEAT
 
 
 def get_sequence_and_answer():
@@ -18,4 +18,5 @@ def get_sequence_and_answer():
 
 
 def run_progress_game():
-    run_game(get_sequence_and_answer, TITLE_PROGRESSION, PROGRESS_INSTR)
+    print(TITLE_PROGRESSION)
+    run_game(get_sequence_and_answer, NUM_OF_REPEAT, PROGRESS_INSTR)
