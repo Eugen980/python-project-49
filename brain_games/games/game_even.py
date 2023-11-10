@@ -1,10 +1,10 @@
-from random import randint
+import random
 from brain_games.engine import run_game
 from brain_games.consts import TITLE_EVEN, EVEN_INSTR, NUM_OF_REPEAT
 
 
 def get_num_and_answer():
-    num = randint(1, 100)
+    num = random.randint(1, 100)
     answer = 'yes' if num % 2 == 0 else 'no'
     return num, answer
 

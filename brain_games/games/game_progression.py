@@ -1,20 +1,24 @@
-from random import randint
+import random
 from brain_games.engine import run_game
 from brain_games.consts import TITLE_PROGRESSION, PROGRESS_INSTR, NUM_OF_REPEAT
 
 
+def get_sequence(len_seq):
+    seq = []
+    step, first_num = random.randint(1, 5), random.randint(1, 30)
+    for _ in range(first_num, first_num + len_seq):
+        seq.append(str(_ * step))
+    return seq
+
+
 def get_sequence_and_answer():
-    sequence = []
-    step = randint(1, 5)
     len_seq = 10
-    first_element = randint(1, 30)
-    random_element = randint(0, len_seq - 1)
-    for i in range(first_element, first_element + len_seq):
-        sequence.append(str(i * step))
-    answer = sequence[random_element]
-    sequence[random_element] = '..'
-    sequence = " ".join(sequence)
-    return sequence, answer
+    random_num = random.randint(0, len_seq - 1)
+    sequence = get_sequence(len_seq)
+    answer = sequence[random_num]
+    sequence[random_num] = '..'
+    question = " ".join(sequence)
+    return question, answer
 
 
 def run_progress_game():

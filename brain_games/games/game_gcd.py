@@ -1,17 +1,20 @@
-from random import randint
+import random
 from brain_games.engine import run_game
 from brain_games.consts import TITLE_GCD, GCD_INSTR, NUM_OF_REPEAT
 
 
+def get_com_div(a, b):
+    res = 0
+    for i in range(1, min(a, b) + 1):
+        if a % i == 0 and b % i == 0:
+            res = i
+    return res
+
+
 def get_nums_and_answer():
-    first = randint(1, 20)
-    second = randint(1, 20)
-    com_div = 1
-    question = str(f'{first} {second}')
-    for i in range(1, min(first, second) + 1):
-        if first % i == 0 and second % i == 0:
-            com_div = i
-    answer = com_div
+    first, second = random.randint(1, 20), random.randint(1, 20)
+    question = f'{first} {second}'
+    answer = get_com_div(first, second)
     return question, str(answer)
 
 

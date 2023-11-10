@@ -1,23 +1,23 @@
-from random import randint, choice
+import random
 from brain_games.engine import run_game
-from brain_games.consts import TITLE_CALC, CALC_INSTR, NUM_OF_REPEAT
+from brain_games.consts import TITLE_CALC, CALC_INSTR, NUM_OF_REPEAT, OPERATION
+
+
+def add_sub_or_multiply(f_num, operation, sec_num):
+    if operation == '+':
+        return f_num + sec_num
+    elif operation == '-':
+        return f_num - sec_num
+    elif operation == '*':
+        return f_num * sec_num
 
 
 def get_nums_and_answer():
-    operation_list = ('+', '-', '*')
-    first = randint(1, 30)
-    second = randint(1, 30)
-    operation = choice(operation_list)
-    question = str(f'{first} {operation} {second}')
-    if operation == '+':
-        answer = str(first + second)
-        return question, answer
-    elif operation == '-':
-        answer = str(first - second)
-        return question, answer
-    elif operation == '*':
-        answer = str(first * second)
-        return question, answer
+    first, second = random.randint(1, 30), random.randint(1, 30)
+    operation = random.choice(OPERATION)
+    question = f'{first} {operation} {second}'
+    answer = add_sub_or_multiply(first, operation, second)
+    return question, str(answer)
 
 
 def run_calc_game():
