@@ -9,4 +9,5 @@ TITLE_GCD = 'brain-gcd'
 TITLE_PRIME = 'brain-prime'
 TITLE_PROGRESSION = 'brain-progression'
 OPERATION = '+', '-', '*'
-NUM_OF_REPEAT = 3
+NUM_OF_ROUND = 3
+WRONG_ANSWER = 'is wrong answer;(. Correct answer'
