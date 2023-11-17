@@ -4,7 +4,8 @@ from brain_games.consts import NAME_GAME_EVEN, EVEN_INSTR
 
 
 def is_even(num):
-    return 'yes' if num % 2 == 0 else 'no'
+    result = 'yes' if num % 2 == 0 else 'no'
+    return result
 
 
 def get_desired_numer_and_answer():
