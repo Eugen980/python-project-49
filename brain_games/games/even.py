@@ -7,7 +7,7 @@ def is_even(number):
     return 'yes' if number % 2 == 0 else 'no'
 
 
-def get_num_and_answer():
+def get_desired_numer_and_answer():
     num = random_number(b=100)
     answer = is_even(num)
     return num, answer
@@ -15,4 +15,4 @@ def get_num_and_answer():
 
 def run_even_game():
     print(NAME_GAME_EVEN)
-    run_game(get_num_and_answer, EVEN_INSTR)
+    run_game(get_desired_numer_and_answer, EVEN_INSTR)

@@ -13,7 +13,7 @@ def get_sequence(len_sequence):
 
 def get_sequence_and_answer():
     len_sequence = 10
-    random_num = random_number(a=0, b=len_sequence-1)
+    random_num = random_number(a=0, b=len_sequence - 1)
     sequence = get_sequence(len_sequence)
     answer = sequence[random_num]
     sequence[random_num] = '..'
