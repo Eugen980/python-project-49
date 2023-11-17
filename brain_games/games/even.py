@@ -1,4 +1,4 @@
-import random
+from brain_games.random_number import random_number
 from brain_games.engine import run_game
 from brain_games.consts import NAME_GAME_EVEN, EVEN_INSTR
 
@@ -9,7 +9,7 @@ def is_even(num):
 
 
 def get_desired_numer_and_answer():
-    num = random.randint(1, 100)
+    num = random_number(b=100)
     answer = is_even(num)
     return num, answer
 
