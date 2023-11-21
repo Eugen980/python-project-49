@@ -9,4 +9,4 @@ NAME_GAME_GCD = 'brain-gcd'
 NAME_GAME_PRIME = 'brain-prime'
 NAME_GAME_PROGRESSION = 'brain-progression'
 OPERATIONS = '+', '-', '*'
-NUM_OF_ROUND = 3
+NUM_OF_ROUNDS = 3

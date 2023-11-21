@@ -1,4 +1,4 @@
-from brain_games.random_number import random_number
+from brain_games.random_number import get_random_number
 from brain_games.engine import run_game
 from brain_games.consts import NAME_GAME_GCD, GCD_INSTR
 
@@ -11,13 +11,12 @@ def get_common_divisor(a, b):
     return res
 
 
-def get_nums_and_answer():
-    first_num, second_num = random_number(), random_number()
+def get_nums_and_common_divisor():
+    first_num, second_num = get_random_number(), get_random_number()
     question = f'{first_num} {second_num}'
-    answer = get_common_divisor(first_num, second_num)
-    return question, str(answer)
+    common_divisor = get_common_divisor(first_num, second_num)
+    return question, str(common_divisor)
 
 
 def run_gcd_game():
-    print(NAME_GAME_GCD)
-    run_game(get_nums_and_answer, GCD_INSTR)
+    run_game(get_nums_and_common_divisor, NAME_GAME_GCD, GCD_INSTR)
