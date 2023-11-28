@@ -1,6 +1,6 @@
 from brain_games.random_number import get_random_number
 from brain_games.engine import run_game
-from brain_games.consts import NAME_GAME_PRIME, PRIME_INSTR
+from brain_games.consts import PRIME_INSTR
 
 
 def is_prime(num):
@@ -19,4 +19,4 @@ def get_num_and_answer():
 
 
 def run_prime_game():
-    run_game(get_num_and_answer, NAME_GAME_PRIME, PRIME_INSTR)
+    run_game(get_num_and_answer, PRIME_INSTR)

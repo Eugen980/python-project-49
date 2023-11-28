@@ -1,6 +1,6 @@
 from brain_games.random_number import get_random_number
 from brain_games.engine import run_game
-from brain_games.consts import NAME_GAME_PROGRESSION, PROGRESS_INSTR
+from brain_games.consts import PROGRESS_INSTR
 
 
 def get_sequence(len_sequence):
@@ -21,5 +21,5 @@ def get_sequence_and_answer():
     return question, answer
 
 
-def run_progress_game():
-    run_game(get_sequence_and_answer, NAME_GAME_PROGRESSION, PROGRESS_INSTR)
+def run_progression_game():
+    run_game(get_sequence_and_answer, PROGRESS_INSTR)

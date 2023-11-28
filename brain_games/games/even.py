@@ -1,6 +1,6 @@
 from brain_games.random_number import get_random_number
 from brain_games.engine import run_game
-from brain_games.consts import NAME_GAME_EVEN, EVEN_INSTR
+from brain_games.consts import EVEN_INSTR
 
 
 def is_even(number):
@@ -15,4 +15,4 @@ def get_even_or_odd_numer_and_answer():
 
 
 def run_even_game():
-    run_game(get_even_or_odd_numer_and_answer, NAME_GAME_EVEN, EVEN_INSTR)
+    run_game(get_even_or_odd_numer_and_answer, EVEN_INSTR)

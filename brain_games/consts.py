@@ -8,5 +8,5 @@ NAME_GAME_EVEN = 'brain-even'
 NAME_GAME_GCD = 'brain-gcd'
 NAME_GAME_PRIME = 'brain-prime'
 NAME_GAME_PROGRESSION = 'brain-progression'
-OPERATIONS = '+', '-', '*'
+MATH_SIGNS = '+', '-', '*'
 NUM_OF_ROUNDS = 3

@@ -1,6 +1,6 @@
 from brain_games.random_number import get_random_number
 from brain_games.engine import run_game
-from brain_games.consts import NAME_GAME_GCD, GCD_INSTR
+from brain_games.consts import GCD_INSTR
 
 
 def get_common_divisor(a, b):
@@ -19,4 +19,4 @@ def get_nums_and_common_divisor():
 
 
 def run_gcd_game():
-    run_game(get_nums_and_common_divisor, NAME_GAME_GCD, GCD_INSTR)
+    run_game(get_nums_and_common_divisor, GCD_INSTR)
