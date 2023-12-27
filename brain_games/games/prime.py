@@ -8,13 +8,12 @@ def is_prime(num):
     for i in range(1, num + 1):
         if num % i == 0:
             count += 1
-    result = 'no' if count > 2 or num == 1 else 'yes'
-    return result
+    return False if count > 2 or num == 1 else True
 
 
 def get_num_and_answer():
     num = get_random_number(b=100)
-    answer = is_prime(num)
+    answer = 'yes' if is_prime(num) else 'no'
     return num, answer
 
 

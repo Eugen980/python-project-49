@@ -4,13 +4,12 @@ from brain_games.consts import EVEN_INSTR
 
 
 def is_even(number):
-    result = 'yes' if number % 2 == 0 else 'no'
-    return result
+    return True if number % 2 == 0 else False
 
 
 def get_even_or_odd_numer_and_answer():
     num = get_random_number(b=100)
-    answer = is_even(num)
+    answer = 'yes' if is_even(num) else 'no'
     return num, answer
 
 
