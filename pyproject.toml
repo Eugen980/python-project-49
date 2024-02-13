@@ -1,7 +1,7 @@
-[tool.poetry]
+a[tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Hexlet Project mini-game Brain-games"
+description = "Is a console mini-game consisting of five brain training games"
 authors = ["Eugen980 <zaza980q@mail.ru>"]
 repository = "https://github.com/Eugen980/python-project-49"
 packages = [{ include = "brain_games"}]

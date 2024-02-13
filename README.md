@@ -5,7 +5,8 @@
 
 ### Brain Games
 
-Brain Games is a console mini-game consisting of five brain training games
+Brain Games is a console mini-game consisting of five brain training games. 
+It was created to consolidate knowledge and practically in writing Python code
 
 1. Determining an even number
 2. Calculator.
