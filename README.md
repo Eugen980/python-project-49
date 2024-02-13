@@ -17,6 +17,19 @@ Brain Games is a console mini-game consisting of five brain training games
 
 Download the game and install from root directory
 
+### Technologies
+
+- [Python 3.10](https://www.python.org/)
+- [Prompt](https://pypi.org/project/prompt/)
+- [poetry](https://python-poetry.org/)
+
+### Requirements
+To install and run the project, you need [Prompt](https://pypi.org/project/prompt/), [poetry](https://python-poetry.org/)
+
+## Use Makefile
+To install dependencies, build, install a package, use commands from the Makefile,such as "make build", "make install" and others
+
+
 ### Starting the game 
 
 To start the game, enter on of the command:
