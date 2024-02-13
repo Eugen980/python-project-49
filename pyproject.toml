@@ -1,4 +1,4 @@
-a[tool.poetry]
+[tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
 description = "Is a console mini-game consisting of five brain training games"
