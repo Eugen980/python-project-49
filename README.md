@@ -28,7 +28,7 @@ Download the game and install from root directory
 To install and run the project, you need [Prompt](https://pypi.org/project/prompt/), [poetry](https://python-poetry.org/)
 
 ## Use Makefile
-To install dependencies, build, install a package, use commands from the Makefile,such as "make build", "make install" and others
+To install dependencies, build, install a package, use commands from the Makefile, such as "make build", "make install" and others
 
 
 ### Starting the game 
