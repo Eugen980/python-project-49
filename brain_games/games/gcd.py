@@ -4,7 +4,7 @@ from brain_games.consts import GCD_INSTR
 import math
 
 
-def get_nums_pair():
+def get_nums_pair_and_gcd():
     first_num, second_num = get_random_number(), get_random_number()
     question = f'{first_num} {second_num}'
     common_divisor = math.gcd(first_num, second_num)
@@ -12,4 +12,4 @@ def get_nums_pair():
 
 
 def run_gcd_game():
-    run_game(get_nums_pair, GCD_INSTR)
+    run_game(get_nums_pair_and_gcd, GCD_INSTR)

@@ -12,6 +12,7 @@ def get_result_by_math_sign(first_num, math_sign, second_num):
             return first_num - second_num
         case '*':
             return first_num * second_num
+    raise (ValueError(f'Unsupported math_sign {math_sign}'))
 
 
 def get_math_expression_and_result():

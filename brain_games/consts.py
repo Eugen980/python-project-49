@@ -10,3 +10,4 @@ NAME_GAME_PRIME = 'brain-prime'
 NAME_GAME_PROGRESSION = 'brain-progression'
 MATH_SIGNS = '+', '-', '*'
 NUM_OF_ROUNDS = 3
+LENGHT_SEQUENCE = 10
