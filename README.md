@@ -17,6 +17,12 @@ It was created to consolidate knowledge and practically in writing Python code
 ### Installation instruction
 
 Download the game and install from root directory
+To install the game from the repository,
+use the command python3 -m pip install --user git+https://github.com/Eugen980/python-project-49.git
+
+### Uninstallation instruction
+
+To delete it, use the command pip uninstall hexlet-code
 
 ### Technologies
 

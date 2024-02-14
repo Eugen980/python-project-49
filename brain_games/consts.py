@@ -8,6 +8,6 @@ NAME_GAME_EVEN = 'brain-even'
 NAME_GAME_GCD = 'brain-gcd'
 NAME_GAME_PRIME = 'brain-prime'
 NAME_GAME_PROGRESSION = 'brain-progression'
-MATH_SIGNS = '+', '-', '*'
+MATH_SIGNS = ('+', '-', '*')
 NUM_OF_ROUNDS = 3
 LENGHT_SEQUENCE = 10
